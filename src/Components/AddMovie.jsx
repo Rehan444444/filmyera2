@@ -65,7 +65,7 @@ const AddMovie = () => {
                                 <div class="p-2 w-full">
                                 <button onClick={AddMovie} class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">{Loading? <TailSpin height={25} color="white"/> :'Submit'}</button>
                                 </div>
-                                <div className="mx-56 p-3 text-green-500 underline  text-xl font-medium hover:text-blue-700 hover:cursor-pointer active:text-purple-600 hover:underline">
+                               <div className="mx-56 p-3 text-green-500 underline  text-xl font-medium hover:text-blue-700 hover:cursor-pointer active:text-purple-600 hover:underline">
                                     <h1>  Login as old User</h1>
                                 </div>
 

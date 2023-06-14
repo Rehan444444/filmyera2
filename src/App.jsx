@@ -12,6 +12,7 @@ import Thor from './Components/Show/Thor'
 import Wakanda from './Components/Show/Wakanda'
 import {Route, Routes} from 'react-router-dom'
 import AddMovie from './Components/AddMovie'
+import Login from './Components/Login'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Cards/>}     />
       <Route path="/AddMovie" element={<AddMovie/>}     />
+      <Route path="/Login" element={<Login/>}     />
       <Route path="/ShowAll1" element={<ShowAll1/>}     />
       <Route path="/RRR" element={<RRR/>}     />
       <Route path="/Topgun" element={<Topgun/>}     />
